@@ -1,7 +1,3 @@
-function getTitle(){
-	return "Kasih Putih"
-}
-
 function verse(){
 	return `
 		<p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5</p>
@@ -75,6 +71,10 @@ function coda(){
 		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</p>
 		<p>Denganmu..)</p>
 	`
+}
+
+function getTitle(){
+	return "Anugerah Terindah"
 }
 
 let orders = [verse, chorus, bridge, verse2, chorus, bridge2, chorus2, chorus, chorus, coda]
