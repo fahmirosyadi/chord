@@ -27,10 +27,10 @@
 
 				<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 				<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-				
+
 				<style type="text/css">
 					#content p {
-					  line-height: 1 !important;
+					  line-height: 0.5 !important;
 					}
 					.navbar {
 						margin-bottom: 20px !important;
@@ -58,9 +58,9 @@
 				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 				      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				        <li class="nav-item">
-				          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+				          <a class="nav-link active" aria-current="page" href="index.html" id="key">Home</a>
 				        </li>
-				        <li class="nav-item p-2">
+				        <li class="nav-item p-1">
 				          <select id="song-options">
 				            
 				          </select>
@@ -91,11 +91,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        
         <script type="text/javascript">
 					const urlParams = new URLSearchParams(window.location.search);
 					const page = urlParams.get('page');
@@ -113,19 +109,29 @@
 						let order = document.getElementById("order");
 						let ind = 0;
 
+						function mod(val){
+							return `<div class="text-danger fw-bold" style="margin-bottom: 10px !important">Mod ${val}</div>`
+						}
+
+						function time(val){
+							return `<b class="text-primary">${val}X</b>`
+						}
+
 						function next(){
 							if(ind < orders.length - 1){
-								content.innerHTML = orders[++ind]();
-								content.innerHTML += `<hr>`
-								content.innerHTML += orders[ind + 1]();
+								content.innerHTML = orders[++ind];
+								if(ind < orders.length - 1){
+									content.innerHTML += `<hr>`
+									content.innerHTML += orders[ind + 1];	
+								}							
 							}
 						}
 
 						function prev(){
 							if(ind > 0){
-								content.innerHTML = orders[--ind]();
+								content.innerHTML = orders[--ind];
 								content.innerHTML += `<hr>`
-								content.innerHTML += orders[ind + 1]();
+								content.innerHTML += orders[ind + 1];
 							}
 						}
 
@@ -144,8 +150,9 @@
 
 						content.innerHTML = ``;
 						setTimeout(() => {
-							content.innerHTML = orders[0]() + `<hr>` + orders[1]();	
-							document.getElementById("title").innerHTML = getTitle();
+							content.innerHTML = orders[0] + `<hr>` + orders[1];	
+							document.getElementById("title").innerHTML = title;
+							document.getElementById("key").innerHTML = key;
 						}, 500)
 						
 
