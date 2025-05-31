@@ -129,10 +129,11 @@
 							<button class="btn btn-primary" style="margin-left: 20px" onClick="next()">Next</button>
 						`
 
+						content.innerHTML = ``;
 						setTimeout(() => {
 							content.innerHTML = orders[0]() + `<hr>` + orders[1]();	
 							document.getElementById("title").innerHTML = getTitle();
-						}, 100)
+						}, 500)
 						
 
 					}else{
