@@ -37,3 +37,20 @@ new DataTable('#songlist', {
     }
   ]
 });
+
+let songOption = document.getElementById("song-options");
+songOption.innerHTML += `<option value="" disabled selected>-Select Song-</option>`
+songData.forEach((row) => {
+	songOption.innerHTML += `
+		<option value="?page=${row[1]}">${row[0]}</option>	
+	`
+})
+
+$('#song-options').select2({
+	placeholder: "-Select Song-"	
+});
+
+$('#song-options').on('select2:select', function (e) {
+    var data = e.params.data;
+    window.location.href = data.id
+});
