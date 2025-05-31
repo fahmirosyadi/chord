@@ -32,6 +32,16 @@
 					.navbar {
 						margin-bottom: 20px !important;
 					}
+					footer {
+					  position: fixed;
+					  bottom: 0;
+					  left: 0;
+					  width: 100%;
+					  background-color: #f0f0f0; /* or any other color */
+					  padding: 10px !important;
+					  text-align: center;
+					  border-top: 1px solid #ccc;
+					}
 				</style>
     </head>
     <body id="page-top">
@@ -65,7 +75,6 @@
         
         <div class="container">
             <div>
-                <div id="order" class="mb-2"></div>	
 								<div id="content">
 									<table class="table" id="songlist">
 									  
@@ -74,6 +83,13 @@
             </div>
         </div>
         
+        <footer class="footer">
+            <div class="container">
+                <div class="align-items-center" id="order">
+                    
+                </div>
+            </div>
+        </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
@@ -125,8 +141,8 @@
 						});
 
 						order.innerHTML = `
-							<button class="btn btn-danger" onClick="prev()">Prev</button>
-							<button class="btn btn-primary" style="margin-left: 20px" onClick="next()">Next</button>
+							<button class="btn btn-lg btn-danger" onClick="prev()">Prev</button>
+							<button class="btn btn-lg btn-primary" style="margin-left: 20px" onClick="next()">Next</button>
 						`
 
 						content.innerHTML = ``;
