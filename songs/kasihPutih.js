@@ -66,4 +66,4 @@ let coda = `
 	<p>Denganmu..)</p>
 `;
 
-let orders = [mod(3.5) + intro, mod(-3.5) + verse, chorus, bridge, verse2, chorus, bridge2, mod(1.5) + chorus2, chorus + time(2), coda]
+let orders = [mod(3.5) + intro, mod(-3.5) + verse, chorus, bridge, verse2, chorus, bridge2, mod(1.5) + chorus2, mod(-0.5) + chorus + time(2), coda]

@@ -94,75 +94,60 @@
         
         <script type="text/javascript">
 					const urlParams = new URLSearchParams(window.location.search);
-					const page = urlParams.get('page');
 
-					function loadScript(url) {
-					  const script = document.createElement('script');
-					  script.src = url;
-					  document.head.appendChild(script);
-					}
-
-					if(page != null){
-						loadScript(page + '.js');
-					
-						let content = document.getElementById("content");
-						let order = document.getElementById("order");
-						let ind = 0;
-
-						function mod(val){
-							return `<div class="text-danger fw-bold" style="margin-bottom: 10px !important">Mod ${val}</div>`
-						}
-
-						function time(val){
-							return `<b class="text-primary">${val}X</b>`
-						}
-
-						function next(){
-							if(ind < orders.length - 1){
-								content.innerHTML = orders[++ind];
-								if(ind < orders.length - 1){
-									content.innerHTML += `<hr>`
-									content.innerHTML += orders[ind + 1];	
-								}							
-							}
-						}
-
-						function prev(){
-							if(ind > 0){
-								content.innerHTML = orders[--ind];
-								content.innerHTML += `<hr>`
-								content.innerHTML += orders[ind + 1];
-							}
-						}
-
-						document.addEventListener('keydown', function(event) {
-						  if (event.key === 'ArrowRight') {
-						    next();
-						  } else if (event.key === 'ArrowLeft') {
-						    prev();
-						  }
-						});
-
-						order.innerHTML = `
-							<button class="btn btn-lg btn-danger" onClick="prev()">Prev</button>
-							<button class="btn btn-lg btn-primary" style="margin-left: 20px" onClick="next()">Next</button>
-						`
-
-						content.innerHTML = ``;
-						setTimeout(() => {
-							content.innerHTML = orders[0] + `<hr>` + orders[1];	
-							document.getElementById("title").innerHTML = title;
-							document.getElementById("key").innerHTML = key;
-						}, 500)
-						
-
-					}else{
-
-					}
-					
+// 						let content = document.getElementById("content");
+// 						let order = document.getElementById("order");
+// 						let ind = 0;
+// 
+// 						function mod(val){
+// 							return `<div class="text-danger fw-bold" style="margin-bottom: 10px !important">Mod ${val}</div>`
+// 						}
+// 
+// 						function time(val){
+// 							return `<b class="text-primary">${val}X</b>`
+// 						}
+// 
+// 						function next(){
+// 							if(ind < orders.length - 1){
+// 								content.innerHTML = orders[++ind];
+// 								if(ind < orders.length - 1){
+// 									content.innerHTML += `<hr>`
+// 									content.innerHTML += orders[ind + 1];	
+// 								}							
+// 							}
+// 						}
+// 
+// 						function prev(){
+// 							if(ind > 0){
+// 								content.innerHTML = orders[--ind];
+// 								content.innerHTML += `<hr>`
+// 								content.innerHTML += orders[ind + 1];
+// 							}
+// 						}
+// 
+// 						document.addEventListener('keydown', function(event) {
+// 						  if (event.key === 'ArrowRight') {
+// 						    next();
+// 						  } else if (event.key === 'ArrowLeft') {
+// 						    prev();
+// 						  }
+// 						});
+// 
+// 						order.innerHTML = `
+// 							<button class="btn btn-lg btn-danger" onClick="prev()">Prev</button>
+// 							<button class="btn btn-lg btn-primary" style="margin-left: 20px" onClick="next()">Next</button>
+// 						`
+// 
+// 						content.innerHTML = ``;
+// 						setTimeout(() => {
+// 							content.innerHTML = orders[0] + `<hr>` + orders[1];	
+// 							document.getElementById("title").innerHTML = title;
+// 							document.getElementById("key").innerHTML = key;
+// 						}, 500)
 
 				</script>
 
+				<script src="songs.js"></script>
 				<script src="index.js"></script>
     </body>
 </html>

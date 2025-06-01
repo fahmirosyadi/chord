@@ -1,5 +1,5 @@
-const songData = [
-  ["Perfect - Ed Sheeran", "perfect-ed-sheeran"],
+let songData = [
+  ["Perfect - Ed Sheeran", "perfect"],
   ["Kiss Me - Sixpence", "kiss-me-sixpence"],
   ["Heaven - Bryan Adams", "heaven-bryan-adams"],
   ["Just The Way You Are - Bruno Mars", "just-the-way-you-are-bruno-mars"],
@@ -26,13 +26,52 @@ const songData = [
   ["Pandangan Pertama - RAN", "pandangan-pertama-ran"]
 ];
 
+songData = [];
+
+
+let songList = songs.split("<p><strong><u>")
+songList.forEach(s => {
+	let part = s.split("</u></strong></p>");
+	let song = {};
+	song.title = part[0];
+	let body = part[1];
+	if(body != undefined){
+		let paragraph = body.split("</p>");
+		song.key = paragraph[0] + "</p>";
+		delete(paragraph[0]);
+		song.chord = "";
+		paragraph.forEach(p => {
+			if(p != "undefined"){
+				song.chord += (p + "</p>")
+			}
+		})
+		songData.push(song);
+	}
+})
+console.log(songData);
+
+function getSong(title){
+	var res = null;
+	songData.forEach(s => {
+		if(s.title == title){
+			res = s;
+		}
+	})
+	return res;
+}
+
+function detail(title){
+	let content = document.getElementById("content");
+	content.innerHTML = getSong(title).chord;
+}
+
 new DataTable('#songlist', {
   data: songData,
   columns: [
     {
       title: "Song",
       render: function(data, type, row) {
-        return `<a href="?page=${row[1]}">${row[0]}</a>`;
+        return `<span onClick="detail('${row.title}')">${row.title}</span>`;
       }
     }
   ]
@@ -42,7 +81,7 @@ let songOption = document.getElementById("song-options");
 songOption.innerHTML += `<option value="" disabled selected>-Select Song-</option>`
 songData.forEach((row) => {
 	songOption.innerHTML += `
-		<option value="?page=${row[1]}">${row[0]}</option>	
+		<option value="?page=${row[1]}">${row.title}</option>	
 	`
 })
 
