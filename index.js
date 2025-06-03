@@ -33,7 +33,9 @@ songList.forEach(s => {
 		})
 		song.parts.push({title: prt[0], chord: chord})		
 	})
-	songData.push(song)
+	if(song.title != ""){
+		songData.push(song);
+	}
 })
 
 console.log(songData)
