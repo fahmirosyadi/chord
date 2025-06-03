@@ -2,7 +2,7 @@ function stripHtml(html)
 {
    let tmp = document.createElement("DIV");
    tmp.innerHTML = html;
-   return tmp.textContent || tmp.innerText || "";
+   return (tmp.textContent || tmp.innerText || "").trim();
 }
 
 let songData = [];
@@ -11,19 +11,27 @@ let songList = songs.split("<p>[End]</p>")
 songList.forEach(s => {
 	let part = s.split("</p>");
 	let song = {};
-	song.title = part[0].replace("<p>","").replace("<strong>","")
-		.replace("</strong>","").trim();
+	song.title = stripHtml(part[0]);
 	if(part[1] != null){
-		song.key = part[1].replace("<p>","").replace("<strong>","")
-		.replace("</strong>","").trim();
+		song.key = stripHtml(part[1]);
 	}
 
 	song.parts = [];
 	part = s.split("[");
 	delete(part[0]);
 	part.forEach(p => {
+		let chord = "";
 		let prt = p.split("]");
-		song.parts.push({title: prt[0], chord: prt[1]})
+		let lines = prt[1].replace(/<\/p>/g, "<br>").trim();
+		lines = lines.replace(/<p>/g, "<br>");
+		lines = lines.split("<br>");
+		lines.forEach(line => {
+			let p = line.replace(/<br>/g, "").trim();
+			if(!p.includes("null") && p != "" && p != " " && p != "&nbsp;"){
+				chord += `<p>${p}</p>`;
+			}
+		})
+		song.parts.push({title: prt[0], chord: chord})		
 	})
 	songData.push(song)
 })
@@ -31,8 +39,11 @@ songList.forEach(s => {
 console.log(songData)
 
 function getChord(song, partTitle){
-	let res = null;
+	let res = "";
 	song.parts.forEach(p => {
+		if(song.title == "It’s You"){
+			console.log(p.title + " : " + partTitle)
+		}
 		if(p.title == partTitle){
 			res = p.chord;
 		}
@@ -47,9 +58,10 @@ function getSong(title){
 			res = s;
 		}
 	})
+	console.log(res);
 	res.parts.forEach(p => {
 		if(p.title.includes("To ")){
-			let to = p.title.split(" ")[1];
+			let to = p.title.replace("To ","");
 			p.chord = p.chord + getChord(res, to);
 		}
 	})
@@ -73,9 +85,9 @@ function prev(title){
 }
 
 function show(song, i){
-	content.innerHTML = `[${song.parts[i].title.replace("To ", "")}] ${song.parts[i].chord}`;
+	content.innerHTML = `<p>[${song.parts[i].title.replace("To ", "")}]</p> ${song.parts[i].chord}`;
 	if(i < song.parts.length - 1){
-		 content.innerHTML += "<hr>" + `[${song.parts[i + 1].title.replace("To ", "")}] ${song.parts[i + 1].chord}`
+		 content.innerHTML += "<hr>" + `<p>[${song.parts[i + 1].title.replace("To ", "")}]</p> ${song.parts[i + 1].chord}`
 	}
 }
 
