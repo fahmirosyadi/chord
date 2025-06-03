@@ -92,6 +92,7 @@ function show(song, i){
 	if(i < song.parts.length - 1){
 		 content.innerHTML += "<hr>" + `<p>[${song.parts[i + 1].title.replace("To ", "")}]</p> ${song.parts[i + 1].chord}`
 	}
+	window.scrollTo({ top: 0, behavior: 'instant' });
 }
 
 function detail(title){
