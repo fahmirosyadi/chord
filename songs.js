@@ -704,7 +704,13 @@ let songs = `
 <p>Sugar</p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
-<p>I'm hurting, baby, I'm broken down<br /> I need your loving, loving<br /> I need it now<br /> When I'm without you<br /> I'm something weak<br /> You got me begging, begging<br /> I'm on my knees<br /> </p>
+<p>I'm hurting, baby, I'm broken down</p>
+<p>I need your loving, loving</p>
+<p>I need it now</p>
+<p>When I'm without you</p>
+<p>I'm something weak</p>
+<p>You got me begging, begging</p>
+<p>I'm on my knees<br /> </p>
 <p>[Pre Chorus]<br /> I don't wanna be needing your love<br /> I just wanna be deep in your love<br /> And it's killing me when you're away, ooh, baby<br /> 'Cause I really don't care where you are<br /> I just wanna be there where you are<br /> And I gotta get one little taste<br /> </p>
 <p>[Chorus]<br /> Your sugar<br /> Yes, please<br /> Won't you come and put it down on me?<br /> I'm right here, 'cause I need<br /> Little love, a little sympathy<br /> Yeah, you show me good loving<br /> Make it alright<br /> Need a little sweetness in my life<br /> Your sugar<br /> Yes, please<br /> Won't you come and put it down on me?<br /> </p>
 <p>[Verse 2]<br /> My broken pieces<br /> You pick them up<br /> Don't leave me hanging, hanging<br /> Come give me some<br /> When I'm without ya<br /> I'm so insecure<br /> You are the one thing, one thing<br /> I'm living for<br /> <br /> [To Pre Chorus]<br /> <br /> [To Chorus]<br /> </p>

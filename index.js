@@ -24,6 +24,7 @@ songList.forEach(s => {
 		let prt = p.split("]");
 		let lines = prt[1].replace(/<\/p>/g, "<br>").trim();
 		lines = lines.replace(/<p>/g, "<br>");
+		lines = lines.replace(/<br \/>/g, "<br>");
 		lines = lines.split("<br>");
 		lines.forEach(line => {
 			let p = line.replace(/<br>/g, "").trim();
