@@ -297,7 +297,7 @@ let songs = `
 <p>[To Chorus]</p>
 <p>&nbsp;</p>
 <p>[End]</p>
-<p><strong>Nothing&rsquo;s Gonna Change My Love For You</strong></p>
+<p><strong>Nothing&rsquo;s Gonna Change</strong></p>
 <p><strong>Key: F# (-6)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int] 1 _ 4 _ 5 _ 3M _ 6 _ 2M _ 2 _ 5 _ 1</p>
@@ -989,6 +989,321 @@ let songs = `
 <p>1&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</p>
 <p>Kau milikku ku milikmu</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7b&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1<br /> Kau jiwa yang selalu aku puja</p>
+<p>&nbsp;</p>
+<p>[End]</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Leaving on a Jet Plane</strong></p>
+<p><strong>Key: </strong></p>
+<p><strong>&nbsp;</strong></p>
+<p>[Verse]</p>
+<p>Ah, ah</p>
+<p>Ah, ah</p>
+<p>All my bags are packed, I'm ready to go</p>
+<p>I'm standin' here outside your door</p>
+<p>I hate to wake you up to say goodbye</p>
+<p>But the dawn is breakin', it's early morn</p>
+<p>The taxi's waitin', he's blowin' his horn</p>
+<p>Already I'm so lonesome, I could die</p>
+<p>So kiss me and smile for me</p>
+<p>Tell me that you'll wait for me</p>
+<p>Hold me like you'll never let me go</p>
+<p>'Cause I'm leaving on a jet plane</p>
+<p>I don't know when I'll be back again</p>
+<p>Oh, babe, I hate to go</p>
+<p>Ah, ah</p>
+<p>There's so many times I've let you down</p>
+<p>So many times I've played around</p>
+<p>I tell you now, they don't mean a thing</p>
+<p>Every place I go, I'll think of you</p>
+<p>Every song I sing, I'll sing for you</p>
+<p>When I come back, I'll wear your wedding ring</p>
+<p>So kiss me and smile for me</p>
+<p>Tell me that you'll wait for me</p>
+<p>Hold me like you'll never let me go</p>
+<p>'Cause I'm leaving on a jet plane</p>
+<p>I don't know when I'll be back again</p>
+<p>Oh, babe, I hate to go</p>
+<p>Now the time has come to leave you</p>
+<p>One more time, let me kiss you</p>
+<p>Then close your eyes and I'll be on my way</p>
+<p>Dream about the days to come</p>
+<p>When I won't have to leave alone</p>
+<p>About the times that I won't have to say</p>
+<p>Oh, kiss me and smile for me</p>
+<p>Tell me that you'll wait for me</p>
+<p>Hold me like you'll never let me go</p>
+<p>'Cause I'm leaving on a jet plane</p>
+<p>I don't know when I'll be back again</p>
+<p>Oh, babe, I hate to go</p>
+<p>I'm leaving on a jet plane</p>
+<p>Don't know when I'll be back again</p>
+<p>Oh, babe, I hate to go</p>
+<p>I'm leaving on a jet plane</p>
+<p>Leaving on a jet plane</p>
+<p>Leaving on a jet plane</p>
+<p>Leaving on a jet plane</p>
+<p>Leaving on a jet plane</p>
+<p>Leaving on a jet plane</p>
+<p>Leaving on a jet plane</p>
+<p>Leaving on a jet plane</p>
+<p>On a jet plane</p>
+<p>&nbsp;</p>
+<p>[End]</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Marry You</strong></p>
+<p><strong>Key: </strong></p>
+<p><strong>&nbsp;</strong></p>
+<p>[Verse]</p>
+<p>It's a beautiful night, we're looking for something dumb to do</p>
+<p>Hey, baby, I think I wanna marry you</p>
+<p>Is it the look in your eyes, or is it this dancing juice?</p>
+<p>Who cares, baby? I think I wanna marry you</p>
+<p>Well, I know this little chapel on the boulevard we can go</p>
+<p>No one will know, oh, come on girl</p>
+<p>Who cares if we're trashed? Got a pocket full of cash we can blow</p>
+<p>Shots of Patr&oacute;n and it's on, girl</p>
+<p>Don't say no, no, no, no, no</p>
+<p>Just say yeah, yeah, yeah, yeah, yeah</p>
+<p>And we'll go, go, go, go, go</p>
+<p>If you're ready, like I'm ready</p>
+<p>'Cause it's a beautiful night, we're looking for something dumb to do</p>
+<p>Hey, baby, I think I wanna marry you</p>
+<p>Is it the look in your eyes, or is it this dancing juice?</p>
+<p>Who cares, baby? I think I wanna marry you, oh</p>
+<p>I'll go get a ring, let the choir bells sing like, ooh</p>
+<p>So what ya wanna do? Let's just run, girl</p>
+<p>If we wake up and you wanna break up, that's cool</p>
+<p>No, I won't blame you, it was fun, girl</p>
+<p>Don't say no, no, no, no, no</p>
+<p>Just say yeah, yeah, yeah, yeah, yeah</p>
+<p>And we'll go, go, go, go, go</p>
+<p>If you're ready, like I'm ready</p>
+<p>'Cause it's a beautiful night, we're looking for something dumb to do</p>
+<p>Hey, baby, I think I wanna marry you</p>
+<p>Is it the look in your eyes, or is it this dancing juice?</p>
+<p>Who cares, baby? I think I wanna marry you</p>
+<p>Just say, "I do"</p>
+<p>Tell me right now, baby</p>
+<p>Tell me right now, baby, baby</p>
+<p>Just say, "I do"</p>
+<p>Tell me right now, baby</p>
+<p>Tell me right now, baby, baby, oh</p>
+<p>It's a beautiful night, we're looking for something dumb to do</p>
+<p>Hey, baby, I think I wanna marry you</p>
+<p>Is it the look in your eyes, or is it this dancing juice?</p>
+<p>Who cares, baby? I think I wanna marry you</p>
+<p>&nbsp;</p>
+<p>[End]</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Beautiful in White</strong></p>
+<p><strong>Key: </strong></p>
+<p><strong>&nbsp;</strong></p>
+<p>[Verse]</p>
+<p>Not sure if you know this</p>
+<p>But when we first met</p>
+<p>I got so nervous</p>
+<p>I couldn't speak</p>
+<p>In that very moment</p>
+<p>I found the one and</p>
+<p>My life had found it's missing piece</p>
+<p>So as long as I live I love you</p>
+<p>Will have and hold you</p>
+<p>You look so beautiful in white</p>
+<p>And from now 'til my very last breath</p>
+<p>This day I'll cherish</p>
+<p>You look so beautiful in white</p>
+<p>Tonight</p>
+<p>What we have is timeless</p>
+<p>My love is endless</p>
+<p>And with this ring I</p>
+<p>Say to the world</p>
+<p>You're my every reason</p>
+<p>You're all that I believe in</p>
+<p>With all my heart I mean every word</p>
+<p>So as long as I live I love you</p>
+<p>Will have and hold you</p>
+<p>You look so beautiful in white</p>
+<p>And from now 'til my very last breath</p>
+<p>This day I'll cherish</p>
+<p>You look so beautiful in white</p>
+<p>Tonight</p>
+<p>Oh, oh</p>
+<p>You look so beautiful in white</p>
+<p>Na-na-na-na-na</p>
+<p>So beautiful in white</p>
+<p>Tonight</p>
+<p>And if a daughter's what our future holds</p>
+<p>I hope she has your eyes</p>
+<p>Finds love like you and I did, yeah</p>
+<p>When she falls in love we let her go</p>
+<p>I'll walk her down the aisle</p>
+<p>She'll look so beautiful in white...</p>
+<p>You look so beautiful in white</p>
+<p>So as long as I live I love you</p>
+<p>Will have and hold you</p>
+<p>You look so beautiful in white</p>
+<p>And from now 'til my very last breath</p>
+<p>This day I'll cherish</p>
+<p>You look so beautiful in white</p>
+<p>Tonight</p>
+<p>You look so beautiful in white tonight...</p>
+<p>&nbsp;</p>
+<p>[End]</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>All of Me</strong></p>
+<p><strong>Key: </strong></p>
+<p><strong>&nbsp;</strong></p>
+<p>[Verse]</p>
+<p>What would I do without your smart mouth?</p>
+<p>Drawing me in, and you kicking me out</p>
+<p>You've got my head spinning, no kidding, I can't pin you down</p>
+<p>What's going on in that beautiful mind?</p>
+<p>I'm on your magical mystery ride</p>
+<p>And I'm so dizzy, don't know what hit me, but I'll be alright</p>
+<p>My head's under water</p>
+<p>But I'm breathing fine</p>
+<p>You're crazy and I'm out of my mind</p>
+<p>'Cause all of me</p>
+<p>Loves all of you</p>
+<p>Love your curves and all your edges</p>
+<p>All your perfect imperfections</p>
+<p>Give your all to me</p>
+<p>I'll give my all to you</p>
+<p>You're my end and my beginning</p>
+<p>Even when I lose, I'm winning</p>
+<p>'Cause I give you all of me</p>
+<p>And you give me all of you, oh-oh</p>
+<p>How many times do I have to tell you?</p>
+<p>Even when you're crying, you're beautiful too</p>
+<p>The world is beating you down, I'm around through every mood</p>
+<p>You're my downfall, you're my muse</p>
+<p>My worst distraction, my rhythm and blues</p>
+<p>I can't stop singing, it's ringing in my head for you</p>
+<p>My head's under water</p>
+<p>But I'm breathing fine</p>
+<p>You're crazy and I'm out of my mind</p>
+<p>'Cause all of me</p>
+<p>Loves all of you</p>
+<p>Love your curves and all your edges</p>
+<p>All your perfect imperfections</p>
+<p>Give your all to me</p>
+<p>I'll give my all to you</p>
+<p>You're my end and my beginning</p>
+<p>Even when I lose, I'm winning</p>
+<p>'Cause I give you all of me</p>
+<p>And you give me all of you, oh-oh</p>
+<p>Give me all of you, oh</p>
+<p>Cards on the table, we're both showing hearts</p>
+<p>Risking it all, though it's hard</p>
+<p>'Cause all of me</p>
+<p>Loves all of you</p>
+<p>Love your curves and all your edges</p>
+<p>All your perfect imperfections</p>
+<p>Give your all to me</p>
+<p>I'll give my all to you</p>
+<p>You're my end and my beginning</p>
+<p>Even when I lose, I'm winning</p>
+<p>'Cause I give you all of me</p>
+<p>And you give me all of you</p>
+<p>I give you all of me</p>
+<p>And you give me all of you, oh-oh</p>
+<p>&nbsp;</p>
+<p>[End]</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>You&rsquo;re Still The One</strong></p>
+<p><strong>Key: </strong></p>
+<p><strong>&nbsp;</strong></p>
+<p>[Verse]</p>
+<p>Hmm yeah eh eh</p>
+<p>Looks like we made it</p>
+<p>Look how far we've come, my baby</p>
+<p>We mighta took the long way</p>
+<p>We knew we'd get there someday</p>
+<p>They said, "I bet they'll never make it"</p>
+<p>But just look at us holding on</p>
+<p>We're still together, still going strong</p>
+<p>Mm (you're still the one)</p>
+<p>You're still the one I run to</p>
+<p>The one that I belong to</p>
+<p>You're still the one I want for life</p>
+<p>(You're still the one)</p>
+<p>You're still the one that I love</p>
+<p>The only one I dream of</p>
+<p>You're still the one I kiss goodnight</p>
+<p>Ain't nothin' better</p>
+<p>We beat the odds together</p>
+<p>I'm glad we didn't listen</p>
+<p>Look at what we would be missin'</p>
+<p>They said, "I bet they'll never make it"</p>
+<p>But just look at us holding on</p>
+<p>We're still together, still going strong</p>
+<p>oh</p>
+<p>You're still the one I run to</p>
+<p>The one that I belong to</p>
+<p>You're still the one I want for life</p>
+<p>(You're still the one)</p>
+<p>You're still the one that I love</p>
+<p>The only one I dream of</p>
+<p>You're still the one I kiss goodnight</p>
+<p>You're still the one</p>
+<p>Yeah (you're still the one)</p>
+<p>You're still the one I run to</p>
+<p>The one that I belong to</p>
+<p>You're still the one I want for life, oh yeah (you're still the one)</p>
+<p>You're still the one that I love</p>
+<p>The only one I dream of</p>
+<p>You're still the one I kiss goodnight</p>
+<p>I'm so glad we made it</p>
+<p>Look how far we've come, my baby</p>
+<p>&nbsp;</p>
+<p>[End]</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>A Thousand Years</strong></p>
+<p><strong>Key: </strong></p>
+<p><strong>&nbsp;</strong></p>
+<p>[Verse]</p>
+<p>Heart beats fast</p>
+<p>Colors and promises</p>
+<p>How to be brave?</p>
+<p>How can I love when I'm afraid to fall?</p>
+<p>But watching you stand alone</p>
+<p>All of my doubt suddenly goes away somehow</p>
+<p>One step closer</p>
+<p>I have died every day waiting for you</p>
+<p>Darling, don't be afraid</p>
+<p>I have loved you for a thousand years</p>
+<p>I'll love you for a thousand more</p>
+<p>Time stands still</p>
+<p>Beauty in all she is</p>
+<p>I will be brave</p>
+<p>I will not let anything take away</p>
+<p>What's standing in front of me</p>
+<p>Every breath, every hour has come to this</p>
+<p>One step closer</p>
+<p>I have died every day waiting for you</p>
+<p>Darling, don't be afraid</p>
+<p>I have loved you for a thousand years</p>
+<p>I'll love you for a thousand more</p>
+<p>And all along I believed I would find you</p>
+<p>Time has brought your heart to me</p>
+<p>I have loved you for a thousand years</p>
+<p>I'll love you for a thousand more</p>
+<p>One step closer</p>
+<p>One step closer</p>
+<p>I have died every day waiting for you</p>
+<p>Darling, don't be afraid</p>
+<p>I have loved you for a thousand years</p>
+<p>I'll love you for a thousand more</p>
+<p>And all along I believed I would find you</p>
+<p>Time has brought your heart to me</p>
+<p>I have loved you for a thousand years</p>
+<p>I'll love you for a thousand more</p>
 <p>&nbsp;</p>
 <p>[End]</p>
 `

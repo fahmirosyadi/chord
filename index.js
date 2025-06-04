@@ -8,6 +8,7 @@ function stripHtml(html)
 let songData = [];
 
 let songList = songs.split("<p>[End]</p>")
+console.log(songList)
 songList.forEach(s => {
 	let part = s.split("</p>");
 	let song = {};
@@ -15,7 +16,7 @@ songList.forEach(s => {
 	if(part[1] != null){
 		song.key = stripHtml(part[1]);
 	}
-
+	console.log(song.title)
 	song.parts = [];
 	part = s.split("[");
 	delete(part[0]);
