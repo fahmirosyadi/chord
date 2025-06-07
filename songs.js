@@ -1041,107 +1041,6 @@ let songs = `
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7b&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1<br /> Kau jiwa yang selalu aku puja</p>
 <p>&nbsp;</p>
 <p>[End]</p>
-<p><strong>Leaving on a Jet Plane</strong></p>
-<p><strong>Key: </strong></p>
-<p><strong>&nbsp;</strong></p>
-<p>[Verse]</p>
-<p>Ah, ah</p>
-<p>Ah, ah</p>
-<p>All my bags are packed, I'm ready to go</p>
-<p>I'm standin' here outside your door</p>
-<p>I hate to wake you up to say goodbye</p>
-<p>But the dawn is breakin', it's early morn</p>
-<p>The taxi's waitin', he's blowin' his horn</p>
-<p>Already I'm so lonesome, I could die</p>
-<p>So kiss me and smile for me</p>
-<p>Tell me that you'll wait for me</p>
-<p>Hold me like you'll never let me go</p>
-<p>'Cause I'm leaving on a jet plane</p>
-<p>I don't know when I'll be back again</p>
-<p>Oh, babe, I hate to go</p>
-<p>Ah, ah</p>
-<p>There's so many times I've let you down</p>
-<p>So many times I've played around</p>
-<p>I tell you now, they don't mean a thing</p>
-<p>Every place I go, I'll think of you</p>
-<p>Every song I sing, I'll sing for you</p>
-<p>When I come back, I'll wear your wedding ring</p>
-<p>So kiss me and smile for me</p>
-<p>Tell me that you'll wait for me</p>
-<p>Hold me like you'll never let me go</p>
-<p>'Cause I'm leaving on a jet plane</p>
-<p>I don't know when I'll be back again</p>
-<p>Oh, babe, I hate to go</p>
-<p>Now the time has come to leave you</p>
-<p>One more time, let me kiss you</p>
-<p>Then close your eyes and I'll be on my way</p>
-<p>Dream about the days to come</p>
-<p>When I won't have to leave alone</p>
-<p>About the times that I won't have to say</p>
-<p>Oh, kiss me and smile for me</p>
-<p>Tell me that you'll wait for me</p>
-<p>Hold me like you'll never let me go</p>
-<p>'Cause I'm leaving on a jet plane</p>
-<p>I don't know when I'll be back again</p>
-<p>Oh, babe, I hate to go</p>
-<p>I'm leaving on a jet plane</p>
-<p>Don't know when I'll be back again</p>
-<p>Oh, babe, I hate to go</p>
-<p>I'm leaving on a jet plane</p>
-<p>Leaving on a jet plane</p>
-<p>Leaving on a jet plane</p>
-<p>Leaving on a jet plane</p>
-<p>Leaving on a jet plane</p>
-<p>Leaving on a jet plane</p>
-<p>Leaving on a jet plane</p>
-<p>Leaving on a jet plane</p>
-<p>On a jet plane</p>
-<p>&nbsp;</p>
-<p>[End]</p>
-<p><strong>Marry You</strong></p>
-<p><strong>Key: </strong></p>
-<p><strong>&nbsp;</strong></p>
-<p>[Verse]</p>
-<p>It's a beautiful night, we're looking for something dumb to do</p>
-<p>Hey, baby, I think I wanna marry you</p>
-<p>Is it the look in your eyes, or is it this dancing juice?</p>
-<p>Who cares, baby? I think I wanna marry you</p>
-<p>Well, I know this little chapel on the boulevard we can go</p>
-<p>No one will know, oh, come on girl</p>
-<p>Who cares if we're trashed? Got a pocket full of cash we can blow</p>
-<p>Shots of Patr&oacute;n and it's on, girl</p>
-<p>Don't say no, no, no, no, no</p>
-<p>Just say yeah, yeah, yeah, yeah, yeah</p>
-<p>And we'll go, go, go, go, go</p>
-<p>If you're ready, like I'm ready</p>
-<p>'Cause it's a beautiful night, we're looking for something dumb to do</p>
-<p>Hey, baby, I think I wanna marry you</p>
-<p>Is it the look in your eyes, or is it this dancing juice?</p>
-<p>Who cares, baby? I think I wanna marry you, oh</p>
-<p>I'll go get a ring, let the choir bells sing like, ooh</p>
-<p>So what ya wanna do? Let's just run, girl</p>
-<p>If we wake up and you wanna break up, that's cool</p>
-<p>No, I won't blame you, it was fun, girl</p>
-<p>Don't say no, no, no, no, no</p>
-<p>Just say yeah, yeah, yeah, yeah, yeah</p>
-<p>And we'll go, go, go, go, go</p>
-<p>If you're ready, like I'm ready</p>
-<p>'Cause it's a beautiful night, we're looking for something dumb to do</p>
-<p>Hey, baby, I think I wanna marry you</p>
-<p>Is it the look in your eyes, or is it this dancing juice?</p>
-<p>Who cares, baby? I think I wanna marry you</p>
-<p>Just say, "I do"</p>
-<p>Tell me right now, baby</p>
-<p>Tell me right now, baby, baby</p>
-<p>Just say, "I do"</p>
-<p>Tell me right now, baby</p>
-<p>Tell me right now, baby, baby, oh</p>
-<p>It's a beautiful night, we're looking for something dumb to do</p>
-<p>Hey, baby, I think I wanna marry you</p>
-<p>Is it the look in your eyes, or is it this dancing juice?</p>
-<p>Who cares, baby? I think I wanna marry you</p>
-<p>&nbsp;</p>
-<p>[End]</p>
 <p><strong>Beautiful in White</strong></p>
 <p><strong>Key: </strong></p>
 <p><strong>&nbsp;</strong></p>
@@ -1627,6 +1526,46 @@ let songs = `
 <p>[Chord]</p>
 <p>1 _ _ _ 2 _ _ _ 4 _ _ _ 1 _ _ _</p>
 <p>&nbsp;</p>
+<p>[Lyric]</p>
+<p>It's a beautiful night, we're looking for something dumb to do</p>
+<p>Hey, baby, I think I wanna marry you</p>
+<p>Is it the look in your eyes, or is it this dancing juice?</p>
+<p>Who cares, baby? I think I wanna marry you</p>
+<p>Well, I know this little chapel on the boulevard we can go</p>
+<p>No one will know, oh, come on girl</p>
+<p>Who cares if we're trashed? Got a pocket full of cash we can blow</p>
+<p>Shots of Patr&oacute;n and it's on, girl</p>
+<p>Don't say no, no, no, no, no</p>
+<p>Just say yeah, yeah, yeah, yeah, yeah</p>
+<p>And we'll go, go, go, go, go</p>
+<p>If you're ready, like I'm ready</p>
+<p>'Cause it's a beautiful night, we're looking for something dumb to do</p>
+<p>Hey, baby, I think I wanna marry you</p>
+<p>Is it the look in your eyes, or is it this dancing juice?</p>
+<p>Who cares, baby? I think I wanna marry you, oh</p>
+<p>I'll go get a ring, let the choir bells sing like, ooh</p>
+<p>So what ya wanna do? Let's just run, girl</p>
+<p>If we wake up and you wanna break up, that's cool</p>
+<p>No, I won't blame you, it was fun, girl</p>
+<p>Don't say no, no, no, no, no</p>
+<p>Just say yeah, yeah, yeah, yeah, yeah</p>
+<p>And we'll go, go, go, go, go</p>
+<p>If you're ready, like I'm ready</p>
+<p>'Cause it's a beautiful night, we're looking for something dumb to do</p>
+<p>Hey, baby, I think I wanna marry you</p>
+<p>Is it the look in your eyes, or is it this dancing juice?</p>
+<p>Who cares, baby? I think I wanna marry you</p>
+<p>Just say, "I do"</p>
+<p>Tell me right now, baby</p>
+<p>Tell me right now, baby, baby</p>
+<p>Just say, "I do"</p>
+<p>Tell me right now, baby</p>
+<p>Tell me right now, baby, baby, oh</p>
+<p>It's a beautiful night, we're looking for something dumb to do</p>
+<p>Hey, baby, I think I wanna marry you</p>
+<p>Is it the look in your eyes, or is it this dancing juice?</p>
+<p>Who cares, baby? I think I wanna marry you</p>
+<p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Leaving on a Jet Plane</strong></p>
 <p><strong>Key: D (-10)</strong></p>
@@ -1720,7 +1659,7 @@ let songs = `
 <p>1 _ 4 _ 1 _ 4 _ 1 _ 6/4 _ 5 _ _ _ 1</p>
 <p>(Optional Piano) 1 _ 4 _ 1 _ 4 _ 1</p>
 <p>&nbsp;</p>
-<p>[End]</p>
+<p>[End]<strong><br /> </strong></p>
 <p><strong>Just The Way You Are</strong></p>
 <p><strong>Female: F (-7)</strong></p>
 <p>&nbsp;</p>

@@ -7,16 +7,21 @@ function stripHtml(html)
 
 let songData = [];
 
-let songList = songs.split("<p>[End]</p>")
+let songList = songs.split("[End]")
 console.log(songList)
 songList.forEach(s => {
 	let part = s.split("</p>");
 	let song = {};
-	song.title = stripHtml(part[0]);
-	if(part[1] != null){
-		song.key = stripHtml(part[1]);
+	let i = 0;
+	while(stripHtml(part[i]) == ''){	
+		i++
 	}
-	console.log(song.title)
+	song.title = stripHtml(part[i]);
+	if(part[i + 1] != null){
+		song.key = stripHtml(part[i + 1]);
+	}
+	
+	
 	song.parts = [];
 	part = s.split("[");
 	delete(part[0]);
@@ -35,7 +40,7 @@ songList.forEach(s => {
 		})
 		song.parts.push({title: prt[0], chord: chord})		
 	})
-	if(song.title != ""){
+	if(song.title && song.title != "" && song.title != 'undefined'){
 		songData.push(song);
 	}
 })
@@ -124,7 +129,7 @@ new DataTable('#songlist', {
     {
       title: "Song",
       render: function(data, type, row) {
-        return `<span onClick="detail('${row.title}')">${row.title}</span>`;
+      	return `<span style="${row.parts[0] && row.parts[0].chord == '' ? 'color: red' : ''}" onClick="detail('${row.title}')">${row.title}</span>`;
       }
     }
   ]
