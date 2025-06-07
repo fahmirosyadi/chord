@@ -97,6 +97,7 @@ function show(song, i){
 }
 
 function detail(title){
+	ind = 0;
 	song = getSong(title);
 	document.getElementById("title").innerHTML = song.title;
 	document.getElementById("key").innerHTML = song.key;
