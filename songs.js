@@ -64,7 +64,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>It&rsquo;s You</strong></p>
-<p><strong>Key: G# (-4)</strong></p>
+<p><strong>Ori: G# (-4)</strong></p>
 <p>&nbsp;</p>
 <p>[Int] 1 _ 3 _ 4 _ 4m</p>
 <p>&nbsp;</p>
@@ -152,7 +152,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Anugerah Terindah</strong></p>
-<p><strong>Key: C</strong></p>
+<p><strong>Ori: C</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int] 1 _ 5/7 _ 6 _ _ 5 4 _ _ 5</p>
 <p>&nbsp;</p>
@@ -234,7 +234,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>When You Tell Me That You Love Me</strong></p>
-<p><strong>Key: D# (-9)</strong></p>
+<p><strong>Ori: D# (-9)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int] 1 _ 6 _ 2M _ 5</p>
 <p>&nbsp;</p>
@@ -298,7 +298,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Nothing&rsquo;s Gonna Change</strong></p>
-<p><strong>Key: F# (-6)</strong></p>
+<p><strong>Ori: F# (-6)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int] 1 _ 4 _ 5 _ 3M _ 6 _ 2M _ 2 _ 5 _ 1</p>
 <p>&nbsp;</p>
@@ -498,7 +498,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Can&rsquo;t Take My Eyes Off You</strong></p>
-<p><strong>Key: E (-8)</strong></p>
+<p><strong>Ori: E (-8)</strong></p>
 <p>&nbsp;</p>
 <p>[Int] 1</p>
 <p>&nbsp;</p>
@@ -566,7 +566,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Heaven</strong></p>
-<p><strong>Key: C (0)</strong></p>
+<p><strong>Ori: C (0)</strong></p>
 <p>&nbsp;</p>
 <p>[Int]</p>
 <p>1 _ 6 _ 5 _ 4</p>
@@ -639,7 +639,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Kiss Me</strong></p>
-<p><strong>Key: D# (-9)</strong></p>
+<p><strong>Ori: D# (-9)</strong></p>
 <p>&nbsp;</p>
 <p>[Int]</p>
 <p>1 _ _ _ 1(Maj7) _ _ _ 1(7) _ _ _ 1(Maj7)</p>
@@ -740,7 +740,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Lebih Indah</strong></p>
-<p><strong>Key: Dm (-7)</strong></p>
+<p><strong>Ori: Dm (-7)</strong></p>
 <p>&nbsp;</p>
 <p>[Int] 6 _ 4 _ 2 _ 3M <strong>4X</strong></p>
 <p>&nbsp;</p>
@@ -866,7 +866,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Sempurna</strong></p>
-<p><strong>Key: E (-8)</strong></p>
+<p><strong>Ori: E (-8)</strong></p>
 <p>&nbsp;</p>
 <p>[Int]</p>
 <p>1 _ _ _ 1 _ _ _</p>
@@ -924,7 +924,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Sugar</strong></p>
-<p><strong>Key: C# (-11)</strong></p>
+<p><strong>Ori: C# (-11)</strong></p>
 <p>&nbsp;</p>
 <p>[Int] 1 _ 6 _ 2 _ 1</p>
 <p>&nbsp;</p>
@@ -991,7 +991,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Teman Hidup</strong></p>
-<p><strong>Key: A (-3)</strong></p>
+<p><strong>Ori: A (-3)</strong></p>
 <p>&nbsp;</p>
 <p>[Int] . . . . 5# . . 7b . _ 1 _ 4 5</p>
 <p>[Verse]</p>
@@ -1042,7 +1042,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Beautiful in White</strong></p>
-<p><strong>Key: </strong></p>
+<p><strong>Ori: </strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int]</p>
 <p>1 _ 5/7 _ 6 _ 3 _ 4 _ 1 _ 5</p>
@@ -1256,7 +1256,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>A Thousand Years</strong></p>
-<p><strong>Key: Bb (-2)</strong></p>
+<p><strong>Ori: Bb (-2)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int]</p>
 <p>1 _ _ 5/7 6 _ _ 5 4 _ _ _ 1 _ 5</p>
@@ -1341,7 +1341,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Marry Your Doughter</strong></p>
-<p><strong>Key: B (-1)</strong></p>
+<p><strong>Ori: B (-1)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int]</p>
 <p>1 _ 5/7 _ 2 _ 4 5</p>
@@ -1444,7 +1444,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p><strong>Dari Mata</strong></p>
-<p><strong>Key: C (0)</strong></p>
+<p><strong>Ori: C (0)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int] 1</p>
 <p>&nbsp;</p>
@@ -1519,7 +1519,7 @@ let songs = `
 <p>Ho-ho-ho-oh</p>
 <p>[End]</p>
 <p><strong>Marry You</strong></p>
-<p><strong>Key: F (-7)</strong></p>
+<p><strong>Ori: F (-7)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int]: 1 _ _ _ 2 _ _ _ 4 _ _ _ 1 _ _ _</p>
 <p>&nbsp;</p>
@@ -1568,7 +1568,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Leaving on a Jet Plane</strong></p>
-<p><strong>Key: D (-10)</strong></p>
+<p><strong>Ori: D (-10)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int]</p>
 <p>1</p>
