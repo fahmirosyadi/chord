@@ -131,6 +131,12 @@ new DataTable('#songlist', {
       render: function(data, type, row) {
       	return `<span style="${row.parts[0] && row.parts[0].chord == '' ? 'color: red' : ''}" onClick="detail('${row.title}')">${row.title}</span>`;
       }
+    },
+    {
+      title: "Key",
+      render: function(data, type, row) {
+      	return `<span style="${row.parts[0] && row.parts[0].chord == '' ? 'color: red' : ''}" onClick="detail('${row.title}')">${row.key}</span>`;
+      }
     }
   ]
 });
