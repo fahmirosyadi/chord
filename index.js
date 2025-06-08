@@ -27,6 +27,7 @@ songList.forEach(s => {
 	song.parts = [];
 	part = s.split("[");
 	delete(part[0]);
+	let mod = "";
 	part.forEach(p => {
 		let chord = "";
 		let prt = p.split("]");
@@ -40,7 +41,14 @@ songList.forEach(s => {
 				chord += `<p>${p}</p>`;
 			}
 		})
-		song.parts.push({title: prt[0], chord: chord})		
+		let title = stripHtml(prt[0]);
+		if(title == "Mod"){
+			mod = `${title} ${stripHtml(chord)}`;
+		}else{
+			song.parts.push({title: title, mod: mod, chord: chord});
+			mod = "";
+		}
+				
 	})
 	if(song.title && song.title != "" && song.title != 'undefined'){
 		songData.push(song);
@@ -52,9 +60,6 @@ console.log(songData)
 function getChord(song, partTitle){
 	let res = "";
 	song.parts.forEach(p => {
-		if(song.title == "It’s You"){
-			console.log(p.title + " : " + partTitle)
-		}
 		if(p.title == partTitle){
 			res = p.chord;
 		}
@@ -74,6 +79,8 @@ function getSong(title){
 		if(p.title.includes("To ")){
 			let to = p.title.replace("To ","");
 			p.chord = p.chord + getChord(res, to);
+			p.chord = p.chord.replace(/<strong>/g, "");
+			p.chord = p.chord.replace(/<strong\/>/g, "");
 		}
 	})
 	
@@ -108,10 +115,11 @@ function prev(title){
 
 function showPart(i){
 	let title = song.parts[i].title.replace("To ", "");
+	let mod = song.parts[i].mod;
 	let chord = song.parts[i].chord;
 	console.log(title, chord)
-	if(title == 'Mod'){
-		content.innerHTML += `<p><strong class="text-danger">${title} ${stripHtml(chord)}<strong></p>`;	
+	if(mod != ""){
+		content.innerHTML += `<p><strong class="text-danger">[${title} | ${mod}]</strong></p> ${chord}`;	
 	}else{
 		content.innerHTML += `<p>[${title}]</p> ${chord}`;
 	}
