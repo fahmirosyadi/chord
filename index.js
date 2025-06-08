@@ -20,7 +20,9 @@ songList.forEach(s => {
 	if(part[i + 1] != null){
 		song.key = stripHtml(part[i + 1]);
 	}
-	
+	if(part[i + 2] != null){
+		song.range = stripHtml(part[i + 2]);
+	}
 	
 	song.parts = [];
 	part = s.split("[");
@@ -106,6 +108,7 @@ function detail(title){
 	song = getSong(title);
 	document.getElementById("title").innerHTML = song.title;
 	document.getElementById("key").innerHTML = song.key;
+	document.getElementById("range").innerHTML = song.range;
 	show(song, 0);
 
 	document.addEventListener('keydown', function(event) {
@@ -129,14 +132,21 @@ new DataTable('#songlist', {
     {
       title: "Song",
       render: function(data, type, row) {
-      	return `<span style="${row.parts[0] && row.parts[0].chord == '' ? 'color: red' : ''}" onClick="detail('${row.title}')">${row.title}</span>`;
+      	return `<span style="${row.parts[0] && row.parts[0].chord == '' ? 'color: #DC3545 !important' : ''}" onClick="detail('${row.title}')">${row.title}</span>`;
       }
     },
     {
       title: "Key",
       className: "only-pc",  // Add a custom class
       render: function(data, type, row) {
-      	return `<span style="${row.parts[0] && row.parts[0].chord == '' ? 'color: red' : ''}" onClick="detail('${row.title}')">${row.key}</span>`;
+      	return `<span style="${row.parts[0] && row.parts[0].chord == '' ? 'color: #DC3545 !important' : ''}" onClick="detail('${row.title}')">${row.key}</span>`;
+      }
+    },
+    {
+      title: "Range",
+      className: "only-pc",  // Add a custom class
+      render: function(data, type, row) {
+      	return `<span style="${row.parts[0] && row.parts[0].chord == '' ? 'color: #DC3545 !important' : ''}" onClick="detail('${row.title}')">${row.range}</span>`;
       }
     }
   ]

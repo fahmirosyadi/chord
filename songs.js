@@ -1,6 +1,7 @@
 let songs = `
 <p><strong>Kasih Putih</strong></p>
 <p><strong>Male: D (-10) | Ori: D# (-9)</strong></p>
+<p><strong>-</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int] <strong>Mod +3.5</strong> 1 _ 3 _ 4 _ _ _ 1 _ 3 _ &nbsp;4 _ &nbsp;4</p>
 <p>&nbsp;</p>
@@ -64,7 +65,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>It&rsquo;s You</strong></p>
-<p><strong>Ori: G# (-4)</strong></p>
+<p><strong>M: F (-7) | F: G (-5) | Ori: G# (-4)</strong></p>
+<p><strong>7(2) &ndash; 3(5)</strong></p>
 <p>&nbsp;</p>
 <p>[Int] 1 _ 3 _ 4 _ 4m</p>
 <p>&nbsp;</p>
@@ -152,7 +154,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Anugerah Terindah</strong></p>
-<p><strong>Ori: C</strong></p>
+<p><strong>M: C (0) | F: E (-8) | Ori: C</strong></p>
+<p><strong>1(3) &ndash; 6(4)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int] 1 _ 5/7 _ 6 _ _ 5 4 _ _ 5</p>
 <p>&nbsp;</p>
@@ -235,6 +238,7 @@ let songs = `
 <p>[End]</p>
 <p><strong>When You Tell Me That You Love Me</strong></p>
 <p><strong>Ori: D# (-9)</strong></p>
+<p><strong>-</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int] 1 _ 6 _ 2M _ 5</p>
 <p>&nbsp;</p>
@@ -298,7 +302,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Nothing&rsquo;s Gonna Change</strong></p>
-<p><strong>Ori: F# (-6)</strong></p>
+<p><strong>M: C (0) | F: F (-7) | Ori: F# (-6)</strong></p>
+<p><strong>1(4) &ndash; 5(5)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int] 1 _ 4 _ 5 _ 3M _ 6 _ 2M _ 2 _ 5 _ 1</p>
 <p>&nbsp;</p>
@@ -378,7 +383,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Perfect</strong></p>
-<p><strong>Female: A (-3) | Ori: G# (-4)</strong></p>
+<p><strong>F: A (-3) | Ori: G# (-4)</strong></p>
+<p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Int] 1</p>
 <p>&nbsp;</p>
@@ -498,7 +504,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Can&rsquo;t Take My Eyes Off You</strong></p>
-<p><strong>Ori: E (-8)</strong></p>
+<p><strong>M: E (-8) | F: G(-5) | Ori: E (-8)</strong></p>
+<p><strong>7(2) &ndash; 3(4)</strong></p>
 <p>&nbsp;</p>
 <p>[Int] 1</p>
 <p>&nbsp;</p>
@@ -566,7 +573,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Heaven</strong></p>
-<p><strong>Ori: C (0)</strong></p>
+<p><strong>Female: C (0) | Ori: C (0)</strong></p>
+<p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Int]</p>
 <p>1 _ 6 _ 5 _ 4</p>
@@ -639,7 +647,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Kiss Me</strong></p>
-<p><strong>Ori: D# (-9)</strong></p>
+<p><strong>M: C (-10) | F: D (-10) | Ori: D# (-9)</strong></p>
+<p><strong>5(3) &ndash; 5(4)</strong></p>
 <p>&nbsp;</p>
 <p>[Int]</p>
 <p>1 _ _ _ 1(Maj7) _ _ _ 1(7) _ _ _ 1(Maj7)</p>
@@ -689,6 +698,7 @@ let songs = `
 <p>[End]</p>
 <p><strong>Cintaku</strong></p>
 <p><strong>Male: E (-8) | Ori: E (-8)</strong></p>
+<p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[In] 1 _ 2 _ 3 _ 2 <strong>4X</strong></p>
 <p>&nbsp;</p>
@@ -740,7 +750,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Lebih Indah</strong></p>
-<p><strong>Ori: Dm (-7)</strong></p>
+<p><strong>M: Dm (-7) | F: Em (-5) | Ori: Dm (-7)</strong></p>
+<p><strong>1(4) &ndash; 2(5)</strong></p>
 <p>&nbsp;</p>
 <p>[Int] 6 _ 4 _ 2 _ 3M <strong>4X</strong></p>
 <p>&nbsp;</p>
@@ -795,7 +806,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Pandangan Pertama</strong></p>
-<p><strong>Female: C (0) | Ori: C (0)</strong></p>
+<p><strong>M: A (-3) | F: F (-7) | Ori: C (0)</strong></p>
+<p><strong>1(3) &ndash; 3(5)</strong></p>
 <p>&nbsp;</p>
 <p>[Int]</p>
 <p>(Guitar)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -866,7 +878,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Sempurna</strong></p>
-<p><strong>Ori: E (-8)</strong></p>
+<p><strong>M: C (0) | F: G (-5) | Ori: E (-8)</strong></p>
+<p><strong>1(4) &ndash; 5(5)</strong></p>
 <p>&nbsp;</p>
 <p>[Int]</p>
 <p>1 _ _ _ 1 _ _ _</p>
@@ -924,7 +937,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Sugar</strong></p>
-<p><strong>Ori: C# (-11)</strong></p>
+<p><strong>M: E (-8) | F: C (0) | Ori: C# (-11)</strong></p>
+<p><strong>5(3) &ndash; 3(5)</strong></p>
 <p>&nbsp;</p>
 <p>[Int] 1 _ 6 _ 2 _ 1</p>
 <p>&nbsp;</p>
@@ -991,7 +1005,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Teman Hidup</strong></p>
-<p><strong>Ori: A (-3)</strong></p>
+<p><strong>M: A (-3) | F: C (0) Ori: A (-3)</strong></p>
+<p><strong>5(3) &ndash; 1(5)</strong></p>
 <p>&nbsp;</p>
 <p>[Int] . . . . 5# . . 7b . _ 1 _ 4 5</p>
 <p>[Verse]</p>
@@ -1042,7 +1057,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Beautiful in White</strong></p>
-<p><strong>Ori: </strong></p>
+<p><strong>M: C (0) | F: D | Ori: C (0)</strong></p>
+<p><strong>3(3) &ndash; 6(4)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int]</p>
 <p>1 _ 5/7 _ 6 _ 3 _ 4 _ 1 _ 5</p>
@@ -1138,7 +1154,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>All of Me</strong></p>
-<p><strong>Ori: Em (-7)</strong></p>
+<p><strong>M: Em (-7) | F: Am (0) | Ori: Em (-7)</strong></p>
+<p><strong>6(3) &ndash; 1(5)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int]</p>
 <p>6 _ 4 _ 1 _ 5</p>
@@ -1209,7 +1226,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>You&rsquo;re Still The One</strong></p>
-<p><strong>Key: D# (-9)</strong></p>
+<p><strong>Ori: D# (-9)</strong></p>
+<p><strong>-</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Verse]</p>
 <p>Hmm yeah eh eh</p>
@@ -1256,7 +1274,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>A Thousand Years</strong></p>
-<p><strong>Ori: Bb (-2)</strong></p>
+<p><strong>M: F (-7) | F: A (-3) | Ori: Bb (-2)</strong></p>
+<p><strong>5(3) &ndash; 2(5)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int]</p>
 <p>1 _ _ 5/7 6 _ _ 5 4 _ _ _ 1 _ 5</p>
@@ -1341,7 +1360,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Marry Your Doughter</strong></p>
-<p><strong>Ori: B (-1)</strong></p>
+<p><strong>M: G (-5) | F: B (-1) | Ori: B (-1)</strong></p>
+<p><strong>5(3) &ndash; 1(5)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int]</p>
 <p>1 _ 5/7 _ 2 _ 4 5</p>
@@ -1444,7 +1464,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p><strong>Dari Mata</strong></p>
-<p><strong>Ori: C (0)</strong></p>
+<p><strong>M: C (0) | F: E (-8) | Ori: C (0)</strong></p>
+<p><strong>3(3) &ndash; 5(4)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int] 1</p>
 <p>&nbsp;</p>
@@ -1519,7 +1540,8 @@ let songs = `
 <p>Ho-ho-ho-oh</p>
 <p>[End]</p>
 <p><strong>Marry You</strong></p>
-<p><strong>Ori: F (-7)</strong></p>
+<p><strong>M: C (0) | F: F (-7) | Ori: F (-7)</strong></p>
+<p><strong>5(4) &ndash; 5(5)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int]: 1 _ _ _ 2 _ _ _ 4 _ _ _ 1 _ _ _</p>
 <p>&nbsp;</p>
@@ -1568,7 +1590,8 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Leaving on a Jet Plane</strong></p>
-<p><strong>Ori: D (-10)</strong></p>
+<p><strong>M: A (-3) | F: D (-10) | Ori: D (-10)</strong></p>
+<p><strong>5(3) &ndash; 6(4)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int]</p>
 <p>1</p>
@@ -1661,85 +1684,115 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]<strong><br /> </strong></p>
 <p><strong>Just The Way You Are</strong></p>
-<p><strong>Female: F (-7)</strong></p>
+<p><strong>M: C (0) | F: F (-7) | Ori: F (-7)</strong></p>
+<p><strong>1(4) &ndash; 5(5)</strong></p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;</p>
 <p>[End]<strong><br /> </strong></p>
 <p><strong>Panah Asmara</strong></p>
-<p><strong>Male: D (-10)</strong></p>
+<p><strong>M: D (-10)</strong></p>
+<p><strong>-</strong></p>
+<p>&nbsp;</p>
+<p>[Verse]</p>
+<p>&nbsp;</p>
+<p>[End]</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Can&rsquo;t Help Falling in Love</strong></p>
+<p><strong>M: D (-10) | F: C (0) | Ori: D (-10)</strong></p>
+<p><strong>5(2) &ndash; 7(3)</strong></p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;</p>
 <p>[End]<strong><br /> </strong></p>
 <p><strong>Your&rsquo;e My Everything</strong></p>
-<p><strong>Female: E (-8)</strong></p>
+<p><strong>F: E (-8)</strong></p>
+<p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Sinaran</strong></p>
-<p><strong>Female: C#m (-8)</strong></p>
+<p><strong>F: C#m (-8)</strong></p>
+<p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Mardua Holong</strong></p>
-<p><strong>Male: D (-10)</strong></p>
+<p><strong>M: D (-10)</strong></p>
+<p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Kisah Romantis</strong></p>
-<p><strong>Male: E (-8)</strong></p>
+<p><strong>M: E (-8)</strong></p>
+<p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Tak Ada Cinta Yang Lain</strong></p>
-<p><strong>Female: E (-8)</strong></p>
+<p><strong>F: E (-8)</strong></p>
+<p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Cinta - Vina</strong></p>
-<p><strong>Female: Bm (-10)</strong></p>
+<p><strong>F: Bm (-10)</strong></p>
+<p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Always Remember Us</strong></p>
-<p><strong>Female: Am (0)</strong></p>
+<p><strong>F: Am (0)</strong></p>
+<p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Demi Cinta</strong></p>
-<p><strong>Male: E (-8)</strong></p>
+<p><strong>M: E (-8)</strong></p>
+<p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Selamat Ulang Tahun</strong></p>
-<p><strong>Female: A (-3)</strong></p>
+<p><strong>F: A (-3)</strong></p>
+<p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Dia</strong></p>
-<p><strong>Female: D (-10)</strong></p>
+<p><strong>F: D (-10)</strong></p>
+<p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Berharap Tak Berpisah</strong></p>
-<p><strong>Female: D (-10)</strong></p>
+<p><strong>F: D (-10)</strong></p>
+<p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Always</strong></p>
-<p><strong>Female: E (-8)</strong></p>
+<p><strong>F: E (-8)</strong></p>
+<p><strong>-</strong></p>
+<p>&nbsp;</p>
+<p>[Verse]</p>
+<p>&nbsp;</p>
+<p>[End]</p>
+<p><strong>The Power of Love</strong></p>
+<p><strong>F: F (-7)</strong></p>
+<p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;</p>
