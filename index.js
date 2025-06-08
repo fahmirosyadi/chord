@@ -83,6 +83,17 @@ function getSong(title){
 let ind = 0;
 let song = null;
 
+function setModStyle(){
+	const paragraphs = document.getElementsByTagName('strong');
+	console.log('tes')
+	for (let i = 0; i < paragraphs.length; i++) {
+	  console.log(paragraphs[i])
+	  if (paragraphs[i].textContent.includes('Mod')) {
+	  	paragraphs[i].classList.add('text-danger');
+	  }
+	}
+}
+
 function next(title){
 	if(ind < song.parts.length - 1){
 		show(song, ++ind);				
@@ -96,28 +107,22 @@ function prev(title){
 }
 
 function show(song, i){
+	console.log("i : " + i)
 	content.innerHTML = `<p>[${song.parts[i].title.replace("To ", "")}]</p> ${song.parts[i].chord}`;
 	if(i < song.parts.length - 1){
 		 content.innerHTML += "<hr>" + `<p>[${song.parts[i + 1].title.replace("To ", "")}]</p> ${song.parts[i + 1].chord}`
 	}
 	window.scrollTo({ top: 0, behavior: 'instant' });
+	setModStyle();
 }
 
 function detail(title){
 	ind = 0;
 	song = getSong(title);
-	document.getElementById("title").innerHTML = song.title;
-	document.getElementById("key").innerHTML = song.key;
+	// document.getElementById("title").innerHTML = song.title;
+	document.getElementById("key").innerHTML = song.key.replace("M:", "Male:").replace("F:", "Female:").replace("Ori:", "Original:").replace(/ \| /g, "<br>");
 	document.getElementById("range").innerHTML = song.range;
 	show(song, 0);
-
-	document.addEventListener('keydown', function(event) {
-	  if (event.key === 'ArrowRight') {
-	    next(song.title);
-	  } else if (event.key === 'ArrowLeft') {
-	    prev(song.title);
-	  }
-	});
 
 	let order = document.getElementById("order");
 	order.innerHTML = `
@@ -167,4 +172,14 @@ $('#song-options').select2({
 $('#song-options').on('select2:select', function (e) {
     var data = e.params.data;
     detail(data.id);
+});
+
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'ArrowRight') {
+    next(song.title);
+  } else if (event.key === 'ArrowLeft') {
+    prev(song.title);
+  } else if (event.ctrlKey && event.shiftKey && event.key.toLowerCase() === 'f') {
+  	$('#song-options').select2('open').focus(); // Replace #yourSelect2Id with your actual Select2 element's ID
+  }
 });

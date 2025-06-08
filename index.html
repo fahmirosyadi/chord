@@ -66,21 +66,21 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 				  <div class="container">
 				    <a class="navbar-brand" href="index.html" id="title">FR Chord</a>
+				    <li class="nav-item p-1">
+		          <select id="song-options">
+		            
+		          </select>
+		        </li>
 				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				      <span class="navbar-toggler-icon"></span>
 				    </button>
 				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 				      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				        <li class="nav-item">
-				          <a class="nav-link active" aria-current="page" href="index.html" id="key">Home</a>
+				          
 				        </li>
 				        <li class="nav-item">
-				          <a class="nav-link active" aria-current="page" href="index.html" id="range">-</a>
-				        </li>
-				        <li class="nav-item p-1">
-				          <select id="song-options">
-				            
-				          </select>
+				          
 				        </li>
 				      </ul>
 				    </div>
@@ -98,10 +98,16 @@
         </div>
         
         <footer class="footer">
-            <div class="container">
-                <div class="align-items-center" id="order">
+            <div class="container row align-items-left">
+            		<div class="align-items-left col-sm-3" id="order">
                     
                 </div>
+            		<div class="col-sm-4">
+            			<span id="key">Home</span>
+            		</div>
+            		<div class="col-sm-5">
+            			<span id="range">-</span>
+            		</div>
             </div>
         </footer>
         <!-- Bootstrap core JS-->

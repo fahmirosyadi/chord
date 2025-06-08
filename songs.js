@@ -1,11 +1,14 @@
 let songs = `
 <p><strong>Kasih Putih</strong></p>
-<p><strong>Male: D (-10) | Ori: D# (-9)</strong></p>
+<p><strong>M: D (-10) | Ori: D# (-9)</strong></p>
 <p><strong>-</strong></p>
 <p><strong>&nbsp;</strong></p>
-<p>[Int] <strong>Mod +3.5</strong> 1 _ 3 _ 4 _ _ _ 1 _ 3 _ &nbsp;4 _ &nbsp;4</p>
+<p>[Int]</p>
+<p><strong>Mod +3.5</strong></p>
+<p>1 _ 3 _ 4 _ _ _ 1 _ 3 _ &nbsp;4 _ &nbsp;4</p>
 <p>&nbsp;</p>
-<p>[Verse] <strong>Mod -3.5</strong></p>
+<p>[Verse]</p>
+<p><strong>Mod -3.5</strong></p>
 <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5</p>
 <p>Terdalam yang pernah kurasa</p>
 <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</p>
@@ -45,7 +48,8 @@ let songs = `
 <p>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7b</p>
 <p>Taburiku dengan cinta)</p>
 <p>&nbsp;</p>
-<p>[Chorus2] <strong>Mod 1.5</strong></p>
+<p>[Chorus2]</p>
+<p><strong>Mod 1.5</strong></p>
 <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</p>
 <p>Biarkanlah kurasakan</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3M&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp; 5&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 5</p>
@@ -55,7 +59,9 @@ let songs = `
 <p>&nbsp;&nbsp;&nbsp; 3M&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p>Berilah diriku.. kasihmu</p>
 <p>&nbsp;</p>
-<p><strong>Mod -0.5</strong> [To Chorus] <strong>2X</strong></p>
+<p>[To Chorus]</p>
+<p><strong>Mod -0.5</strong></p>
+<p><strong>2X</strong></p>
 <p>&nbsp;</p>
 <p>[Coda]</p>
 <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</p>
@@ -573,7 +579,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Heaven</strong></p>
-<p><strong>Female: C (0) | Ori: C (0)</strong></p>
+<p><strong>F: C (0) | Ori: C (0)</strong></p>
 <p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Int]</p>
@@ -697,7 +703,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Cintaku</strong></p>
-<p><strong>Male: E (-8) | Ori: E (-8)</strong></p>
+<p><strong>M: E (-8) | Ori: E (-8)</strong></p>
 <p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[In] 1 _ 2 _ 3 _ 2 <strong>4X</strong></p>
