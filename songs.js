@@ -3,12 +3,14 @@ let songs = `
 <p><strong>M: D (-10) | Ori: D# (-9)</strong></p>
 <p><strong>-</strong></p>
 <p><strong>&nbsp;</strong></p>
+<p><strong>[Mod] 3.5</strong></p>
+<p>&nbsp;</p>
 <p>[Int]</p>
-<p><strong>Mod +3.5</strong></p>
 <p>1 _ 3 _ 4 _ _ _ 1 _ 3 _ &nbsp;4 _ &nbsp;4</p>
 <p>&nbsp;</p>
+<p><strong>[Mod] -3.5</strong></p>
+<p>&nbsp;</p>
 <p>[Verse]</p>
-<p><strong>Mod -3.5</strong></p>
 <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5</p>
 <p>Terdalam yang pernah kurasa</p>
 <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</p>
@@ -32,6 +34,8 @@ let songs = `
 <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5</p>
 <p>(Ku datang padamu kekasihku)</p>
 <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <p>[Verse2]</p>
 <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p>Kucurahkan isi jiwaku</p>
@@ -48,8 +52,9 @@ let songs = `
 <p>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7b</p>
 <p>Taburiku dengan cinta)</p>
 <p>&nbsp;</p>
+<p><strong>[Mod] 1.5</strong></p>
+<p>&nbsp;</p>
 <p>[Chorus2]</p>
-<p><strong>Mod 1.5</strong></p>
 <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</p>
 <p>Biarkanlah kurasakan</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3M&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp; 5&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 5</p>
@@ -59,16 +64,15 @@ let songs = `
 <p>&nbsp;&nbsp;&nbsp; 3M&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p>Berilah diriku.. kasihmu</p>
 <p>&nbsp;</p>
-<p>[To Chorus]</p>
-<p><strong>Mod -0.5</strong></p>
-<p><strong>2X</strong></p>
+<p><strong>[Mod] -0.5</strong></p>
+<p>&nbsp;</p>
+<p>[To Chorus] <strong>2X</strong></p>
 <p>&nbsp;</p>
 <p>[Coda]</p>
-<p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</p>
+<p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5/7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4/6</p>
 <p>(Kutemukan tempat di hidupku..</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</p>
 <p>Denganmu..)</p>
-<p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>It&rsquo;s You</strong></p>
 <p><strong>M: F (-7) | F: G (-5) | Ori: G# (-4)</strong></p>
@@ -160,7 +164,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Anugerah Terindah</strong></p>
-<p><strong>M: C (0) | F: E (-8) | Ori: C</strong></p>
+<p><strong>M: C (0) | F: E (-8) | Ori: C (0)</strong></p>
 <p><strong>1(3) &ndash; 6(4)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int] 1 _ 5/7 _ 6 _ _ 5 4 _ _ 5</p>
@@ -191,7 +195,9 @@ let songs = `
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp; 2M&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3M</p>
 <p>Kunyanyikan hanya untukmu.. hoo..</p>
 <p>&nbsp;</p>
-<p>[Chorus] <strong>Mod -1.5</strong></p>
+<p><strong>[Mod] -1.5</strong></p>
+<p>&nbsp;</p>
+<p>[Chorus]</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5/7&nbsp;</p>
 <p>Ku ingin kau jadi milikku</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5m</p>
@@ -210,6 +216,8 @@ let songs = `
 <p>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p>Anugerah terindah untuk.. diriku..</p>
 <p>&nbsp;</p>
+<p><strong>[Mod] 1.5</strong></p>
+<p>&nbsp;</p>
 <p>[Bridge]</p>
 <p>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1/3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</p>
 <p>Jangan abaikan niatku</p>
@@ -223,6 +231,8 @@ let songs = `
 <p>Yang terbaik tuk bahagiakanmu..</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3M</p>
 <p>Hoo wo..</p>
+<p>&nbsp;</p>
+<p><strong>[Mod] -1.5</strong></p>
 <p>&nbsp;</p>
 <p>[Chorus 2]</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5/7</p>
@@ -258,7 +268,9 @@ let songs = `
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5</p>
 <p>All the impossible I wanna do</p>
 <p>&nbsp;</p>
-<p>[Verse 2]<strong> (Mod 1.5)</strong></p>
+<p><strong>[Mod] 1.5</strong></p>
+<p>&nbsp;</p>
+<p>[Verse 2]</p>
 <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6</strong></p>
 <p>I wanna hold you close under the rain</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5</p>
@@ -268,7 +280,7 @@ let songs = `
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5</p>
 <p>In a world of lies you are the truth</p>
 <p>&nbsp;</p>
-<p>(Chorus)</p>
+<p>[Chorus]</p>
 <p>1&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</p>
 <p>Everytime you touch me I become a hero</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5</p>
@@ -282,8 +294,10 @@ let songs = `
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5</p>
 <p>When you tell me that you love me</p>
 <p>&nbsp;</p>
-<p><strong>(Mod 1.5)</strong></p>
-<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6</strong></p>
+<p><strong>[Mod] 1.5</strong></p>
+<p>&nbsp;</p>
+<p>[Verse 3]</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>1<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>6</p>
 <p>I wanna make you see just what I was</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5</p>
 <p>Show you the loneliness and what it does</p>
@@ -292,9 +306,13 @@ let songs = `
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3M -&gt; 5</p>
 <p>Everything&rsquo;s easy now I have here</p>
 <p>&nbsp;</p>
-<p>[To Chorus] <strong>Mod -1.5</strong></p>
+<p><strong>[Mod] -1.5</strong></p>
 <p>&nbsp;</p>
-<p>[Bridge] <strong>Mod 1.5</strong></p>
+<p>[To Chorus]</p>
+<p>&nbsp;</p>
+<p><strong>[Mod] 1.5</strong></p>
+<p>&nbsp;</p>
+<p>[Bridge]</p>
 <p>4</p>
 <p>In a world without you</p>
 <p>6M</p>
@@ -513,7 +531,9 @@ let songs = `
 <p><strong>M: E (-8) | F: G(-5) | Ori: E (-8)</strong></p>
 <p><strong>7(2) &ndash; 3(4)</strong></p>
 <p>&nbsp;</p>
-<p>[Int] 1</p>
+<p>[Int]</p>
+<p>1 _ _ _ _ _ _ _</p>
+<p>1 _ _ _ _ _ _ _</p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1</p>
@@ -558,9 +578,12 @@ let songs = `
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2<br /> And let me love you, baby</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7b&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6M<br /> Let me love you</p>
 <p>&nbsp;</p>
-<p>[To Verse] <strong>Mod 1.5</strong></p>
+<p><strong>[Mod] 1.5</strong></p>
 <p>&nbsp;</p>
-<p>[Interlude 2] <strong>Mod -1.5</strong></p>
+<p>[To Verse]</p>
+<p>&nbsp;</p>
+<p><strong>[Mod] -1.5</strong></p>
+<p>[Interlude 2]</p>
 <p>2 _ 5 _ 1 _ 6M</p>
 <p>&nbsp;</p>
 <p>[To Chorus]</p>
@@ -703,7 +726,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Cintaku</strong></p>
-<p><strong>M: E (-8) | Ori: E (-8)</strong></p>
+<p><strong>M: E (+4) | Ori: E (+4)</strong></p>
 <p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[In] 1 _ 2 _ 3 _ 2 <strong>4X</strong></p>
@@ -773,7 +796,9 @@ let songs = `
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6<br /> Tetapi satu sinar terangi jiwaku</p>
 <p>&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3M<br /> Saat ku melihat senyummu</p>
 <p>&nbsp;</p>
-<p>[Chorus] <strong>Mod -1.5</strong></p>
+<p><strong>[Mod] -1.5</strong></p>
+<p>&nbsp;</p>
+<p>[Chorus]</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;</p>
 <p>Dan kau hadir merubah segalanya</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3 <br /> Menjadi lebih indah</p>
@@ -782,7 +807,10 @@ let songs = `
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp; <br /> Dan membuatku utuh tuk menjalani hidup</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2<br /> Berdua denganmu selama-lamanya</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;-&gt;<br /> Kaulah yang terbaik untukku</p>
-<p>[Interlude] <strong>Mod 1.5</strong> 6 _ 4 _ 2 _ 3M <strong>2X</strong></p>
+<p>&nbsp;</p>
+<p><strong>[Mod] 1.5</strong></p>
+<p>&nbsp;</p>
+<p>[Interlude] 6 _ 4 _ 2 _ 3M <strong>2X</strong></p>
 <p>&nbsp;</p>
 <p>[Verse 2]</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3M</p>
@@ -791,21 +819,30 @@ let songs = `
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6<br /> Bunga cinta bermekaran dalam jiwaku</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3M<br /> Kan ku petik satu untukmu</p>
 <p>&nbsp;</p>
+<p><strong>[Mod] -1.5</strong></p>
+<p>&nbsp;</p>
 <p>[To Chorus]</p>
 <p>&nbsp;</p>
-<p>[Bridge] <strong>Mod 1.5</strong></p>
+<p><strong>[Mod] 1.5</strong></p>
+<p>&nbsp;</p>
+<p>[Bridge]</p>
 <p>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7b&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6M</p>
 <p>Ku percayakan seluruh hatiku padamu</p>
 <p>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br /> Kasihku satu janjiku</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3M</p>
 <p>Kaulah yang terakhir bagiku</p>
 <p>&nbsp;</p>
-<p>[Interlude 2] <strong>Mod -1.5 </strong></p>
+<p><strong>[Mod] -1.5</strong></p>
+<p>&nbsp;</p>
+<p>[Interlude 2]</p>
 <p>1 _ _ _ 3 _ 6 _ 2 _ _ _ 5 _ _ _ 1 _ _ _ 3 _ 6 _ 4 _ _ _ 5</p>
+<p><strong>[Mod] -1.5</strong></p>
 <p>&nbsp;</p>
 <p>[To Chorus]</p>
 <p>&nbsp;</p>
-<p>[Coda] <strong>Mod 1.5</strong></p>
+<p><strong>[Mod] 1.5</strong></p>
+<p>&nbsp;</p>
+<p>[Coda]</p>
 <p>5 _ _ _ 4#m _ _ _ 4 _ _ _ 3M</p>
 <p>&nbsp;</p>
 <p>[Out] 6 _ 4 _ 2 _ 3M <strong>2X</strong></p>
@@ -1116,7 +1153,9 @@ let songs = `
 <p>&nbsp;</p>
 <p>[To Chorus]</p>
 <p>&nbsp;</p>
-<p>[Interlude 2] <strong>Mod 1</strong></p>
+<p><strong>[Mod] 1</strong></p>
+<p>&nbsp;</p>
+<p>[Interlude 2]</p>
 <p>1 _ 5/7 _ 6 _ 3</p>
 <p>Oh, oh</p>
 <p>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;5</p>
@@ -1160,7 +1199,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>All of Me</strong></p>
-<p><strong>M: Em (-7) | F: Am (0) | Ori: Em (-7)</strong></p>
+<p><strong>M: Em (-5) | F: Am (0) | Ori: Fm (-4)</strong></p>
 <p><strong>6(3) &ndash; 1(5)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Int]</p>
@@ -1464,9 +1503,11 @@ let songs = `
 <p>&nbsp;</p>
 <p>[To Chorus]</p>
 <p>&nbsp;</p>
-<p>[To Chorus 2] <strong>End with 7b</strong></p>
+<p>[To Chorus 2]</p>
 <p>&nbsp;</p>
 <p>[To Chorus]</p>
+<p>&nbsp;</p>
+<p>[End]</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p><strong>Dari Mata</strong></p>
@@ -1510,15 +1551,7 @@ let songs = `
 <p>5&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1(7)</p>
 <p>Jatuh, terus jatuh ke hati (jatuh ke hati)</p>
 <p>&nbsp;</p>
-<p>[Chorus 2]</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5</p>
-<p>Dari matamu, matamu, ku mulai jatuh cinta</p>
-<p>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6</p>
-<p>Ku melihat, melihat ada bayangnya</p>
-<p>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p>Dari mata, kau buatku jatuh</p>
-<p>5</p>
-<p>Jatuh, terus jatuh ke hati</p>
+<p>[To Chorus]</p>
 <p>&nbsp;</p>
 <p>[To Verse]</p>
 <p>&nbsp;</p>
@@ -1526,7 +1559,19 @@ let songs = `
 <p>&nbsp;</p>
 <p>[To Chorus]</p>
 <p>&nbsp;</p>
-<p>[To Chorus 2]</p>
+<p>[Chorus 2]</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5</p>
+<p>Dari matamu, matamu, ku mulai jatuh cinta</p>
+<p>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6</p>
+<p>Ku melihat, melihat ada bayangnya</p>
+<p>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Dari mata, kau buatku jatuh</p>
+<p>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; 2M</p>
+<p>Jatuh, terus jatuh ke hati</p>
+<p>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Dari mata, kau buatku jatuh</p>
+<p>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Jatuh, terus jatuh ke hati</p>
 <p>&nbsp;</p>
 <p>[To Chorus]</p>
 <p>&nbsp;</p>
@@ -1693,11 +1738,68 @@ let songs = `
 <p><strong>M: C (0) | F: F (-7) | Ori: F (-7)</strong></p>
 <p><strong>1(4) &ndash; 5(5)</strong></p>
 <p>&nbsp;</p>
-<p>[Verse]</p>
+<p>[Chord]</p>
+<p>1 _ _ _ 6 _ _ _ 4 _ _ _ 1 _ _ _</p>
+<p>&nbsp;</p>
+<p>[Lyric]</p>
+<p>Oh, her eyes, her eyes</p>
+<p>Make the stars look like they're not shining</p>
+<p>Her hair, her hair</p>
+<p>Falls perfectly without her trying</p>
+<p>She's so beautiful</p>
+<p>And I tell her every day</p>
+<p>Yeah, I know, I know</p>
+<p>When I compliment her, she won't believe me</p>
+<p>And it's so, it's so</p>
+<p>Sad to think that she don't see what I see</p>
+<p>But every time she asks me, "Do I look okay?"</p>
+<p>I say</p>
+<p>When I see your face</p>
+<p>There's not a thing that I would change</p>
+<p>'Cause you're amazing</p>
+<p>Just the way you are</p>
+<p>And when you smile</p>
+<p>The whole world stops and stares for a while</p>
+<p>'Cause girl, you're amazing</p>
+<p>Just the way you are</p>
+<p>Yeah</p>
+<p>Her lips, her lips</p>
+<p>I could kiss them all day if she'd let me</p>
+<p>Her laugh, her laugh</p>
+<p>She hates, but I think it's so sexy</p>
+<p>She's so beautiful</p>
+<p>And I tell her every day</p>
+<p>Oh, you know, you know, you know</p>
+<p>I'd never ask you to change</p>
+<p>If perfect's what you're searching for</p>
+<p>Then just stay the same</p>
+<p>So don't even bother asking if you look okay</p>
+<p>You know I'll say</p>
+<p>When I see your face</p>
+<p>There's not a thing that I would change</p>
+<p>'Cause you're amazing</p>
+<p>Just the way you are</p>
+<p>And when you smile</p>
+<p>The whole world stops and stares for a while</p>
+<p>'Cause girl, you're amazing</p>
+<p>Just the way you are</p>
+<p>The way you are</p>
+<p>The way you are</p>
+<p>Girl, you're amazing</p>
+<p>Just the way you are</p>
+<p>When I see your face</p>
+<p>There's not a thing that I would change</p>
+<p>'Cause you're amazing</p>
+<p>Just the way you are</p>
+<p>And when you smile</p>
+<p>The whole world stops and stares for a while</p>
+<p>'Cause girl, you're amazing</p>
+<p>Just the way you are</p>
+<p>Yeah</p>
 <p>&nbsp;</p>
 <p>[End]<strong><br /> </strong></p>
 <p><strong>Panah Asmara</strong></p>
-<p><strong>M: D (-10)</strong></p>
+<p><strong>M: D (-10) | Ori: D# (-9)</strong></p>
 <p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
@@ -1709,7 +1811,54 @@ let songs = `
 <p><strong>M: D (-10) | F: C (0) | Ori: D (-10)</strong></p>
 <p><strong>5(2) &ndash; 7(3)</strong></p>
 <p>&nbsp;</p>
+<p>[Int]</p>
+<p>1 _ 5 _ 1 _ 5 _</p>
+<p>&nbsp;</p>
 <p>[Verse]</p>
+<p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5</p>
+<p>Wise men say Only fools rush in</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;4&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;</p>
+<p>But I can't help falling in love with you</p>
+<p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;3&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp; 1&nbsp;&nbsp; 5</p>
+<p>Shall I stay? would it be a sin</p>
+<p>&nbsp; &nbsp;4&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp; &nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</p>
+<p>If I can't help falling in love with you?</p>
+<p>&nbsp;</p>
+<p>[Chorus]</p>
+<p>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7M(7)</p>
+<p>Like a river flows</p>
+<p>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7M(7)</p>
+<p>Surely to the sea</p>
+<p>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7M(7)</p>
+<p>Darling, so it goes</p>
+<p>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6M&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp; 5</p>
+<p>Some things are meant to be</p>
+<p>&nbsp;</p>
+<p>[Verse 2]</p>
+<p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5</p>
+<p>Take my hand, take my whole life, too</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;4&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;</p>
+<p>For I can't help falling in love with you</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>[Chorus 2]</p>
+<p>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7M(7)</p>
+<p>Like a river flows</p>
+<p>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7M(7)</p>
+<p>Surely to the sea</p>
+<p>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7M(7)</p>
+<p>Darling, so it goes</p>
+<p>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6M&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 5</p>
+<p>Some things are meant to be</p>
+<p>&nbsp;</p>
+<p>[To Verse 2]</p>
+<p>&nbsp;</p>
+<p>[Coda]</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;4&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;</p>
+<p>For I can't help falling in love with you</p>
 <p>&nbsp;</p>
 <p>[End]<strong><br /> </strong></p>
 <p><strong>Your&rsquo;e My Everything</strong></p>

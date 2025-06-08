@@ -106,19 +106,35 @@ function prev(title){
 	}
 }
 
-function show(song, i){
-	console.log("i : " + i)
-	if(i < 0){
-		content.innerHTML = `
+function showPart(i){
+	let title = song.parts[i].title.replace("To ", "");
+	let chord = song.parts[i].chord;
+	console.log(title, chord)
+	if(title == 'Mod'){
+		content.innerHTML += `<p><strong class="text-danger">${title} ${stripHtml(chord)}<strong></p>`;	
+	}else{
+		content.innerHTML += `<p>[${title}]</p> ${chord}`;
+	}
+}
+
+function show(song){
+	content.innerHTML = ``;
+	if(ind < 0){
+		content.innerHTML += `
 		<p>[Key]</p> 
 		<div style="margin-bottom: 10px">${song.key.replace("M:", "Male:").replace("F:", "Female:").replace("Ori:", "Original:").replace(/ \| /g, "<br>")}</div>
 		<p>Pitch Range : ${song.range}</p>
 		`;
 	}else{
-		content.innerHTML = `<p>[${song.parts[i].title.replace("To ", "")}]</p> ${song.parts[i].chord}`;
+		showPart(ind);
 	}
-	if(i < song.parts.length - 1){
-		 content.innerHTML += "<hr>" + `<p>[${song.parts[i + 1].title.replace("To ", "")}]</p> ${song.parts[i + 1].chord}`
+	if(ind < song.parts.length - 1){
+		content.innerHTML += "<hr>"; 
+		showPart(ind + 1);
+	}
+	if(song.parts[ind] && (song.parts[ind].title == "Mod" || song.parts[ind + 1].title == "Mod")){
+		content.innerHTML += "<hr>";
+		showPart(ind + 2);
 	}
 	window.scrollTo({ top: 0, behavior: 'instant' });
 	setModStyle();
@@ -128,7 +144,7 @@ function detail(title){
 	ind = -1;
 	song = getSong(title);
 	document.getElementById("title").innerHTML = song.title;
-	show(song, ind);
+	show(song);
 
 	let order = document.getElementById("order");
 	order.innerHTML = `
