@@ -101,14 +101,22 @@ function next(title){
 }
 
 function prev(title){
-	if(ind > 0){
+	if(ind > -1){
 		show(song, --ind);
 	}
 }
 
 function show(song, i){
 	console.log("i : " + i)
-	content.innerHTML = `<p>[${song.parts[i].title.replace("To ", "")}]</p> ${song.parts[i].chord}`;
+	if(i < 0){
+		content.innerHTML = `
+		<p>[Key]</p> 
+		<div style="margin-bottom: 10px">${song.key.replace("M:", "Male:").replace("F:", "Female:").replace("Ori:", "Original:").replace(/ \| /g, "<br>")}</div>
+		<p>Pitch Range : ${song.range}</p>
+		`;
+	}else{
+		content.innerHTML = `<p>[${song.parts[i].title.replace("To ", "")}]</p> ${song.parts[i].chord}`;
+	}
 	if(i < song.parts.length - 1){
 		 content.innerHTML += "<hr>" + `<p>[${song.parts[i + 1].title.replace("To ", "")}]</p> ${song.parts[i + 1].chord}`
 	}
@@ -117,12 +125,10 @@ function show(song, i){
 }
 
 function detail(title){
-	ind = 0;
+	ind = -1;
 	song = getSong(title);
-	// document.getElementById("title").innerHTML = song.title;
-	document.getElementById("key").innerHTML = song.key.replace("M:", "Male:").replace("F:", "Female:").replace("Ori:", "Original:").replace(/ \| /g, "<br>");
-	document.getElementById("range").innerHTML = song.range;
-	show(song, 0);
+	document.getElementById("title").innerHTML = song.title;
+	show(song, ind);
 
 	let order = document.getElementById("order");
 	order.innerHTML = `
