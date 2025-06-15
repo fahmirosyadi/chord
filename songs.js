@@ -7,6 +7,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[Int] Piano</p>
 <p>1 _ 3 _ 4 _ _ _ 1 _ 3 _ &nbsp;4 _ &nbsp;4</p>
+<p>(Biarkanlah kurasakan)</p>
 <p>&nbsp;</p>
 <p><strong>[Mod] -3.5</strong></p>
 <p>&nbsp;</p>
@@ -78,8 +79,8 @@ let songs = `
 <p><strong>F: G (-5) | Ori: G# (-4)</strong></p>
 <p><strong>7(2) &ndash; 3(5)</strong></p>
 <p>&nbsp;</p>
-<p>[Int] Piano</p>
-<p>1 _ 3 _ 4 _ 4m</p>
+<p>[Int] Piano (6/8)</p>
+<p>1 . . . . . 3 . . . . . 4 . . . . . 4m</p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -170,10 +171,11 @@ let songs = `
 <p><strong>&nbsp;</strong></p>
 <p>[Int] Piano</p>
 <p>1 _ 5/7 _ 6 _ _ 5 4 _ _ 5</p>
+<p>_ (Sempat ku)</p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
-<p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5/7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</p>
-<p>Sempat ku berfikir.. bahwa diriku..</p>
+<p>1&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5/7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</p>
+<p>_ Sempat ku berfikir.. bahwa diriku..</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5</p>
 <p>Takkan mungkin mendapatkanmu</p>
 <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5/7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6</p>
@@ -729,7 +731,7 @@ let songs = `
 <p>&nbsp;</p>
 <p>[To Chorus]</p>
 <p>&nbsp;</p>
-<p>[To Int]</p>
+<p>[To Int] <strong>(Harmonica Melodi)</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p>[Interlude 2]</p>
 <p>2 _ 5 _ 1 _ 6</p>
@@ -737,7 +739,9 @@ let songs = `
 <p><strong>&nbsp;</strong></p>
 <p>[To Chorus]</p>
 <p><strong>&nbsp;</strong></p>
-<p>[To Int] <strong>4X</strong></p>
+<p>[To Int]</p>
+<p>&nbsp;</p>
+<p>[To Int] <strong>(Harmonica Melodi)</strong></p>
 <p>&nbsp;</p>
 <p>[End]</p>
 <p><strong>Cintaku</strong></p>
@@ -2192,7 +2196,8 @@ let songs = `
 <p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Int] Piano</p>
-<p>4 _ _ _ 4m</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4 _ _ _ 4m</p>
+<p>(Jadilah pasangan)</p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5/7</p>
@@ -2272,8 +2277,9 @@ let songs = `
 <p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Int] Piano</p>
-<p>1 _ 5 _ 4 _ 5</p>
-<p>&nbsp;</p>
+<p>1 _ _ _ 5 _ _ _ 4 _ _ _ 5 _ _ _</p>
+<p><strong>_ _ _ 4 5 4 3 2</strong></p>
+<p><strong>&nbsp;</strong></p>
 <p>[Verse]</p>
 <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5</p>
 <p>Look into my eyes, you will see</p>
@@ -2410,7 +2416,8 @@ let songs = `
 <p><strong>-</strong></p>
 <p>&nbsp;</p>
 <p>[Int] Piano</p>
-<p>1 _ 4 _ 3M _ 6 _ 4 _ 3 6 2 _ 5(Sus4) _ 5 _ _ _</p>
+<p>, , , , 1 _ 4 _ 3M _ 6 _ 4 _ 3 6 2 _ 5(Sus4) _ 5_</p>
+<p>, , , (Bawalah pergi cintaku)</p>
 <p>&nbsp;</p>
 <p>[Verse]</p>
 <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4</p>
@@ -2456,8 +2463,8 @@ let songs = `
 <p>[To Chorus]</p>
 <p>&nbsp;</p>
 <p>[Out]</p>
-<p>1 _ 4 _ 1</p>
-<p>&nbsp;</p>
+<p>, , , , 1 _ 4 _ 1</p>
+<p>, , , (Bawalah pergi cintaku)</p>
 <p>[End]</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
