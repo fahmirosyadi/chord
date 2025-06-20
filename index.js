@@ -1,3 +1,5 @@
+let tones = ['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
+
 function stripHtml(html)
 {
    let tmp = document.createElement("DIV");
@@ -5,10 +7,41 @@ function stripHtml(html)
    return (tmp.textContent || tmp.innerText || "").trim();
 }
 
+function getPitchValue(pitch){
+	let match = [];
+	if(pitch.includes("(")){
+		match = pitch.replace(")","").split("(");
+	}else{
+		match = pitch.match(/([A-G][#b]?)(\d+)/);
+	}
+	if (match) {
+		return match[2].trim() + tones.indexOf(match[1].trim());
+	}
+	return null;
+}
+
 let songData = [];
+let vocalData = [];
+
+let vocalList = vocal.split(",");
+vocalList.forEach(s => {
+	let name = s.split(":")[0].trim();
+	let range = s.split(":")[1].trim();
+	let bottomPitch = range.split("-")[0].trim();
+	let topPitch = range.split("-")[1].trim();
+	vocalData.push({
+		name: name, 
+		topPitch: bottomPitch, 
+		bottomPitch: topPitch,
+		topPitchValue: getPitchValue(topPitch),
+		bottomPitchValue: getPitchValue(bottomPitch),
+	})
+	console.log(vocalData);
+})
 
 let songList = songs.split("[End]")
 console.log(songList)
+let songInd = 0;
 songList.forEach(s => {
 	let part = s.split("</p>");
 	let song = {};
@@ -16,12 +49,19 @@ songList.forEach(s => {
 	while(stripHtml(part[i]) == ''){	
 		i++
 	}
+	song.id = songInd + 1;
 	song.title = stripHtml(part[i]);
 	if(part[i + 1] != null){
 		song.key = stripHtml(part[i + 1]);
 	}
 	if(part[i + 2] != null){
 		song.range = stripHtml(part[i + 2]);
+		if(song.range.split("-").length > 1){
+			song.topPitch = song.range.split("-")[1].trim();
+			song.bottomPitch = song.range.split("-")[0].trim();
+			
+			console.log(song.title, song.range.split("-"))
+		}
 	}
 	
 	song.parts = [];
@@ -53,6 +93,8 @@ songList.forEach(s => {
 	if(song.title && song.title != "" && song.title != 'undefined'){
 		songData.push(song);
 	}
+
+	songInd++;
 })
 
 console.log(songData)
@@ -67,10 +109,10 @@ function getChord(song, partTitle){
 	return res;
 }
 
-function getSong(title){
+function getSong(id){
 	var res = null;
 	songData.forEach(s => {
-		if(s.title == title){
+		if(s.id == id){
 			res = s;
 		}
 	})
@@ -148,9 +190,15 @@ function show(song){
 	setModStyle();
 }
 
-function detail(title){
+var url = new URL(window.location.href);
+var songId = url.searchParams.get("id");
+if(songId != null){
+	detail(songId);
+}
+
+function detail(id){
 	ind = -1;
-	song = getSong(title);
+	song = getSong(id);
 	document.getElementById("title").innerHTML = song.title;
 	show(song);
 
@@ -159,6 +207,7 @@ function detail(title){
 		<button class="btn btn-lg btn-danger" onClick="prev('${song.title}')">Prev</button>
 		<button class="btn btn-lg btn-primary" style="margin-left: 20px" onClick="next('${song.title}')">Next</button>
 	`
+	window.history.pushState({},"", "?id=" + id);
 }
 
 new DataTable('#songlist', {
@@ -167,7 +216,7 @@ new DataTable('#songlist', {
     {
       title: "Song",
       render: function(data, type, row) {
-      	return `<span style="${row.parts[0] && row.parts[0].chord == '' ? 'color: #DC3545 !important' : ''}" onClick="detail('${row.title}')">${row.title}</span>`;
+      	return `<span style="${row.parts[0] && row.parts[0].chord == '' ? 'color: #DC3545 !important' : ''}" onClick="detail('${row.id}')">${row.title}</span>`;
       }
     },
     {
@@ -191,12 +240,23 @@ let songOption = document.getElementById("song-options");
 songOption.innerHTML += `<option value="" disabled selected>-Select Song-</option>`
 songData.forEach((row) => {
 	songOption.innerHTML += `
-		<option>${row.title}</option>	
+		<option value="${row.id}">${row.title}</option>	
+	`
+})
+
+let vocalOption = document.getElementById("vocal-options");
+songOption.innerHTML += `<option value="" disabled selected>-Select Vocalist-</option>`
+vocalData.forEach((row) => {
+	vocalOption.innerHTML += `
+		<option>${row.name}</option>	
 	`
 })
 
 $('#song-options').select2({
 	placeholder: "-Select Song-"	
+});
+$('#vocal-options').select2({
+	placeholder: "-Select Vocalist-"	
 });
 
 $('#song-options').on('select2:select', function (e) {
