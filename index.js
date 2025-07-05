@@ -245,12 +245,14 @@ songData.forEach((row) => {
 })
 
 let vocalOption = document.getElementById("vocal-options");
-songOption.innerHTML += `<option value="" disabled selected>-Select Vocalist-</option>`
-vocalData.forEach((row) => {
-	vocalOption.innerHTML += `
-		<option>${row.name}</option>	
-	`
-})
+if(vocalOption){
+	songOption.innerHTML += `<option value="" disabled selected>-Select Vocalist-</option>`
+	vocalData.forEach((row) => {
+		vocalOption.innerHTML += `
+			<option>${row.name}</option>	
+		`
+	})
+}
 
 $('#song-options').select2({
 	placeholder: "-Select Song-"	
